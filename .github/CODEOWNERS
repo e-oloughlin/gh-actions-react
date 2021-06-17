@@ -1,0 +1,4 @@
+* @e-oloughlin
+*.js @e-oloughlin
+*.yml @e-oloughlin
+/public/ * @e-oloughlin
