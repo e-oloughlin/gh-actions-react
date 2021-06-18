@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>What the fuck</p>
+        <p>Semantic release with github actions</p>
         <a
           className="App-link"
           href="https://reactjs.org"

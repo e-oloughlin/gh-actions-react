@@ -1,6 +1,6 @@
 module.exports = {
   branches: 'main',
-  repositoryUrl: 'https://github.com/e-oloughlin/gh-actions-react/',
+  repositoryUrl: 'https://github.com/e-oloughlin/gh-actions-react.git',
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',

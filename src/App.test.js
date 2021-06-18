@@ -3,8 +3,8 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const paragraphElement = screen.getByText(/What the fuck/);
+  const paragraphElement = screen.getByText(/Semantic release with github actions/);
   expect(paragraphElement).toBeInTheDocument();
-  const linkElement = screen.getByText(/github actions/i);
+  const linkElement = screen.getByText(/^github actions$/);
   expect(linkElement).toBeInTheDocument();
 });
