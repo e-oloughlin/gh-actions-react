@@ -40,10 +40,6 @@ jobs:
         with:
           name: build
           path: build
-  deploy:
-    runs-on: ubuntu-latest
-    needs: [build]
-    steps:
       - name: Create a release
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: npx semantic release --debug
