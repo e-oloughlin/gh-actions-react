@@ -7,6 +7,6 @@ test('renders learn react link', () => {
     /Semantic release with github actions/
   );
   expect(paragraphElement).toBeInTheDocument();
-  const linkElement = screen.getByText(/^github actions$/);
+  const linkElement = screen.getByText(/^Why is it not working!$/);
   expect(linkElement).toBeInTheDocument();
 });
