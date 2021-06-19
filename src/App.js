@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Why is it not working!
+          Use react
         </a>
       </header>
     </div>
