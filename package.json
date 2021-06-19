@@ -19,7 +19,9 @@
     "eject": "react-scripts eject",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,json,css,scss,md}\"",
     "format": "prettier --write \"**/*.{js,jsx,yml,json,css,scss,md}\"",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "eslintConfig": {
     "extends": [
@@ -40,10 +42,19 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
     "semantic-release": "^17.4.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/e-oloughlin/gh-actions-react.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
