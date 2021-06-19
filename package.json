@@ -1,6 +1,6 @@
 {
   "name": "gh-actions-react",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,json,css,scss,md}\"",
-    "format": "prettier --write \"**/*.{js,jsx,yml,json,css,scss,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,yml,json,css,scss,md}\"",
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +41,9 @@
   },
   "devDependencies": {
     "semantic-release": "^17.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-oloughlin/gh-actions-react.git"
   }
 }
