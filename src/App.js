@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+const name={title:''};
+
 function App() {
   return (
     <div className="App">
